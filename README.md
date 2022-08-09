@@ -44,22 +44,21 @@ To train models:
 - The models will be also saved in colab folder tab, and can be downloaded manually.
 
 ---------------------------------------------------------------------------------
-##Dynamic method
+Dynamic method
 ---------------------------------------------------------------------------------
 
 - connect to google colab GPU
-
 - upload model to the left folder bar of google colab in pascal folder
 - to manually upload a file in folder, right click on the folder and click upload
 - Upload kaggle json file, using code snippet, to download dataset directly
 - run code snippets in the order they are placed
 
-**in some notebooks, the directory of loading model, in test function, might have been changed to google drive directory. To make it compatible with manual upload of models, simply comment out those lines.
+In some notebooks, the directory of loading model, in test function, might have been changed to google drive directory. To make it compatible with manual upload of models, simply comment out those lines.
 
 To only test a model, you need to comments out calling train_deep_q() function in main function, and directly run the test.
 
 ---------------------------------------------------------------------------------
-##Note: It is highly recommended to run the code with GPU since the runtime is around 30mins per epoch for the hierarchical model and around 1hour per epoch for the dynamic model.
+Note: It is highly recommended to run the code with GPU since the runtime is around 30mins per epoch for the hierarchical model and around 1hour per epoch for the dynamic model.
 
 ---------------------------------------------------------------------------------
 Test, train split:
