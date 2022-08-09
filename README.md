@@ -20,24 +20,21 @@ To download dataset from kaggle, you need a kaggle.json key. We provided this ke
 - Select "Create New API Token" under the API section to download the kaggle.json file
 
 ---------------------------------------------------------------------------------
-##Hierarchical Method
+Hierarchical Method
 ---------------------------------------------------------------------------------
 To test models:
 
 - upload the corresponding notebook to google Colab
-
 - connect to google colab GPU
-
-- upload the model to the left folder bar of google colab in the following directory: <br/>
+- upload the model to the left folder bar of google colab in the following directory: 
 - pascal/models_image_zooms 
 - to manually upload a file in folder, right click on the folder and click upload
 - Be careful that the name of the model used in the testing part should be changed to the name of the model (if it is not the same as the uploaded model). 
-<br/>
 - Upload kaggle json file, using code snippet, to download dataset directly
 - run code snippets in the order they are placed, except mounting google drive and training agent code
 - run testing agent part
 ---------------------------------------------------------------------------------
-###To train models:
+To train models:
 
 - connect to google colab GPU
 - Upload kaggle json file, using code snippet, to download dataset directly
@@ -54,7 +51,6 @@ To test models:
 
 - upload model to the left folder bar of google colab in pascal folder
 - to manually upload a file in folder, right click on the folder and click upload
-
 - Upload kaggle json file, using code snippet, to download dataset directly
 - run code snippets in the order they are placed
 
