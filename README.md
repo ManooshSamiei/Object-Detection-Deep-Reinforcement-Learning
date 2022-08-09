@@ -61,7 +61,7 @@ To only test a model, you need to comments out calling train_deep_q() function i
 Note: It is highly recommended to run the code with GPU since the runtime is around 30mins per epoch for the hierarchical model and around 1hour per epoch for the dynamic model.
 
 ---------------------------------------------------------------------------------
-Test, train split:
+Test-train split:
  
 In training, we use images listed in objectclass_train.txt file in datatset. For testing we use images listed in objectclass_val.txt file in datatset. 
 
