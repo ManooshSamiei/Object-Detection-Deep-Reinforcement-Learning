@@ -71,3 +71,18 @@ Number of examples for different object categories do not differ significantly. 
 Table of results are included in our submitted report.
 
 In this project, we used google colaboratoru gpu to train and test our models.
+
+Please cite the following if you used this repository:
+
+```
+@misc{https://doi.org/10.48550/arxiv.2208.04511,
+  doi = {10.48550/ARXIV.2208.04511},
+  url = {https://arxiv.org/abs/2208.04511}, 
+  author = {Samiei, Manoosh and Li, Ruofeng},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences}, 
+  title = {Object Detection with Deep Reinforcement Learning},
+  publisher = {arXiv}, 
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+```
