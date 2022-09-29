@@ -73,7 +73,7 @@ Table of results are included in our submitted report.
 In this project, we used google colaboratoru gpu to train and test our models.
 
 ---------------------------------------------------------------------------------
-##Please cite the following if you used this repository:
+## Please cite the following if you used this repository:
 ```
 @misc{https://doi.org/10.48550/arxiv.2208.04511,
   doi = {10.48550/ARXIV.2208.04511},
